@@ -6,6 +6,13 @@
         "cols": ["GP4"],
         "rows": ["GP5"]
     },
+    "ps2": {
+        "enabled": true,
+        "driver": "vendor",
+        "clock_pin": "GP21",
+        "data_pin": "GP20",
+        "mouse_enabled": true
+    },
     "backlight": {
         "pin": "GP25"
     },
