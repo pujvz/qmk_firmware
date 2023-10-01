@@ -9,8 +9,9 @@
     "ps2": {
         "enabled": true,
         "driver": "vendor",
-        "clock_pin": "GP21",
-        "data_pin": "GP20",
+        //clock_pin assignment must be data_pin + 1
+        "clock_pin": "GP29",
+        "data_pin": "GP28",
         "mouse_enabled": true
     },
     "backlight": {
